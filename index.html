@@ -3,128 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="./assets/img/cv.png"> 
-    <meta name="description" content="Ici vous trouverez le Curriculum vit&aelig; de Mathieu Billoux">
+    <meta name="description" content="Ici, vous trouverez le Curriculum vit&aelig; de Mathieu Billoux">
     <title>Curriculum vit&aelig; Billoux Mathieu</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
-        <a href="./assets/img/photo_de_mathieu_billoux.jpg" target="_blank"><img src="./assets/img/photo_de_mathieu_billoux.jpg" alt="Photo de Profil du candidat"></a>
-        <h1>Mathieu Billoux</h1>
-        <h2>Développeur Web et Web Mobile</h2>
-        <address>
-            <table>
-                <tr>
-                    <td><a href="mailto:mb@mail.com">&#128386; mb@mail.com</a></td>
-                    <td><a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x12ad559942bfee27:0x54f7c4a695df74c9?sa=X&ved=1t:8290&ictx=111" target="_blank">&#127968; Pl. Hôtel de ville, 15000 Aurillac</a></td>                   
-                </tr>
-                <tr>
-                    <td><a href="tel:0606060606">&#128383; 0606060606</a></td>
-                    <td>&#128664; Permis B BE C CE</td>
-                </tr>
-            </table>    
-        </address>
+        <a href="./assets/img/photo_de_mathieu_billoux.jpg" target="_blank"><img src="./assets/img/photo_de_mathieu_billoux.jpg" alt="Photo du candidat Billoux Mathieu"></a>
+        <section class="flex-col-h">
+            <h1>Mathieu Billoux</h1>
+            <h2>Développeur Web et Web Mobile</h2>
+            <address>
+                <table>
+                    <tr>
+                        <td><a href="mailto:mb@mail.com">&#128386; mb@mail.com</a></td>
+                        <td><a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x12ad559942bfee27:0x54f7c4a695df74c9?sa=X&ved=1t:8290&ictx=111" target="_blank">&#127968; Pl. Hôtel de ville, 15000 Aurillac</a></td>                   
+                    </tr>
+                    <tr>
+                        <td><a href="tel:0606060606">&#128383; 0606060606</a></td>
+                        <td>&#128664; Permis B BE C CE</td>
+                    </tr>
+                </table>    
+            </address>
+        </section>
     </header>
     <main>
-        <section>
-            <h3>Profil</h3>
-            <hr>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed voluptatum quidem cum quam aut voluptatem, consequuntur sunt repellendus porro eaque
-                unde delteniti dicta perfrendis magni debitis dolorem atque vitae voluptas. Cum magni doloribus eius tenetur!<br>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus iste cumque odio! Sed voluptatum quidem cum quam aut voluptatem, consequuntur sunt repellendus porro eaque
-                unde delteniti dicta perfrendis magni debitis dolorem atque vitae voluptas. Cum magni doloribus eius tenetur!
-            </p>
+        <section class="section-D">
+            <section>
+                <h3>Profil</h3>
+                <hr>
+                <p>
+                    Bonjour, vous être sur le CV numérique et interactif de Mathieu Billoux.
+                    Après plusieurs années à chercher ma voie, je l'ai enfin trouvé, je suis motivé et intéressé, il ne vous reste plus qu'à cliquer pour me contacter.
+                </p>
+            </section>
+            <section>
+                <h3>Formations</h3>
+                <hr>
+                <!--Je me suis servis de beaucoup de séparations à l'intérieur des div, je ne suis pas sur
+                que ce soit la meilleure méthode, mais je ne voyais pas d'autres manières pour séparer 
+                les informations avec Flex-->
+                <div class="section-div" >
+                    <span class="info">Formation Développeur Web Full stack </span>
+                    <span class="date"><time datetime="2024-07">Juillet 2024</time> - <time datetime="2025">2025</time></span>
+                    <small class="italic">Centre Européen de Formation </small>
+                </div>
+                <div class="section-div">
+                    <span class="info">Obtention Permis C / CE / FIMO</span>    
+                    <span class="date"><time datetime="2023-11">Novembre 2023</time> - <time datetime="2024-02">Février 2024</time></span>
+                    <small class="italic">Gaillard Formation Aurillac </small>
+                </div>
+                <div class="section-div">
+                    <span class="info">Obtention du Brevet professionnel responsable agricole</span>
+                    <span class="date"><time datetime="2016-09">Septembre 2016</time> - <time datetime="2017-06">Juin 2017</time></span>
+                    <small class="italic">CFPPA Aurillac</small>
+                </div>
+                <div class="section-div">
+                    <span class="info">Période d’apprentissage en vue de l’obtention du BPREA </span>           
+                    <span class="date"><time datetime="2013-09">Septembre 2013</time> - <time datetime="2015-06">Juin 2015</time></span>  
+                    <small class="italic">CFPPA Aurillac</small>                                                       
+                </div>            
+            </section>
+            <section>
+                <h3>Stages</h3>
+                <hr>
+                <div class="section-div">
+                    <span class="info">Apprentissage agricole </span>
+                    <span class="date"><time datetime="2013-09">Septembre 2013</time> - <time datetime="2015-06">Juin 2015</time></span>
+                    <small class="italic">SCEA Ferme équestre de l'Authre</small>
+                </div>
+            </section>
+            <section>
+                <h3>Expérience professionnel</h3>
+                <hr>
+                <div class="section-div">
+                    <span class="info">Chauffeur Poid lourd polybenne</span> 
+                    <span class="date"><time datetime="2024-07">Juillet 2024</time> - Maintenant</span>
+                    <small class="italic">CABA </small>
+                </div>
+                <div class="section-div">
+                    <span class="info">Chauffeur Super lourd sur fond mouvant </span>
+                    <span class="date"><time datetime="2024-05">Mai 2024</time> - <time datetime="2024-06">Juin 2024</time></span>
+                    <small class="italic">Cantal Fret </small>
+                </div>
+                <div class="section-div">
+                    <span class="info">Création / Gestion d'une SAS de E-Commerce(BVG) </span>
+                    <span class="date"><time datetime="2020">2020</time> - <time datetime="2023-09-30">30 Septembre 2023</time></span>
+                    <small class="italic">site internet www.tableaudart.fr </small>
+                </div>
+                <div class="section-div">
+                    <span class="info">Création d'une micro-entreprise de E-Commerce </span>
+                    <span class="date"><time datetime="2019-01-17">17 Janvier 2019</time> - <time datetime="2020">2020</time></span>
+                    <small class="italic">Site internet www.tableaudart.fr</small> 
+                </div>
+                <div class="section-div">
+                    <span class="info">Aide dans la ferme familliale</span> 
+                    <span class="date"><time datetime="2017-07">Juillet 2017</time> - <time datetime="2019-01-16"> 16 Janvier 2019</time></span>
+                    <small class="italic">SCEA Ferme équestre de l'Authre </small>
+                </div>
+            </section>
         </section>
-        <section>
-            <h3>Formations</h3>
-            <hr>
-            <div>
-                Période d’apprentissage en vue de l’obtention du BPREA (Brevet professionnel responsable agricole) CFPPA Aurillac <time datetime="2013-09">Septembre 2013</time> - <time datetime="2015-06">Juin 2015</time>
-            </div>
-            <div>
-                Obtention de BPREA (Brevet professionnel responsable agricole) CFPPA Aurillac <time datetime="2016-09">Septembre 2016</time> - <time datetime="2017-06">Juin 2017</time> 
-            </div>
-            <div>
-                Obtention Permis C <time datetime="2023-11-20">20/11/2023</time>; Obtention FIMO <time datetime="2024-01">Janvier 2024</time>; Obtention Permis CE <time datetime="2024-02-29">29/02/2024</time> Gaillard Formation Aurillac <time datetime="2023-11">Novembre 2023</time> - <time datetime="2024-02">Février 2024</time>
-            </div>
-            <div>
-                Formation Développeur Web Full stack Centre Européen de Formation <time datetime="2024-07">Juillet 2024</time> - <time datetime="2025">2025</time>
-            </div>
-        </section>
-        <section>
-            <h3>Stages</h3>
-            <hr>
-            <div>
-                Apprentissage agricole SCEA Ferme équestre de l'Authre <time datetime="2013-09">Septembre 2013</time> - <time datetime="2015-06">Juin 2015</time>
-            </div>
-        </section>
-        <section>
-            <h3>Expérience professionnel</h3>
-            <hr>
-            <div>
-                Aide dans la ferme familliale SCEA Ferme équestre de l'Authre <time datetime="2017-07">Juillet 2017</time> - <time datetime="2019-01-16"> 16 Janvier 2019</time>
-            </div>
-            <div>
-                Création d'une micro-entreprise de E-Commerce Site internet www.tableaudart.fr <time datetime="2019-01-17">17 Janvier 2019</time> - <time datetime="2020">2020</time>
-            </div>
-            <div>
-                Création / Gestion d'une SAS de E-Commerce(BVG) site internet www.tableaudart.fr <time datetime="2020">2020</time> - <time datetime="2023-09-30">30 Septembre 2023</time>
-            </div>
-            <div>
-                Chauffeur Super lourd sur fond mouvant Cantal Fret <time datetime="2024-05">Mai 2024</time> - <time datetime="2024-06">Juin 2024</time>
-            </div>
-            <div>
-                Chauffeur Poid lourd polybenne CABA <time datetime="2024-07">Juillet 2024</time> - Maintenant
-            </div>
-        </section>
-        <section>
-            <h3>Compétences</h3>
-            <hr>
-            <p>
-                HTML &#x2605;&#x2605;&#x2605;&#x2605;&#x2606;
-            </p>
-            <p>
-                CSS &#x2605;&#x2605;&#x2605;&#x2605;&#x2606;
-            </p>
-            <p>
-                Javascript &#x2606;&#x2606;&#x2606;&#x2606;&#x2606;
-            </p>
-            <p>
-                PHP &#x2606;&#x2606;&#x2606;&#x2606;&#x2606;
-            </p>
-        </section>
-        <section>
-            <h3>Langues</h3>
-            <hr>
-            <p>
-                Français Langue maternelle
-            </p>
-            <p>
-                Anglais Moyen</p>
-        </section>
-        <section>
-            <h3>Qualités</h3>
-            <hr>
-            <ul style="list-style-type: square;">
-                <li>Oragnisé</li>
-                <li>Autonome</li>
-                <li>Esprit d'équipe</li>
-                <li>Sens de l'apprentissage</li>
-            </ul>
-        </section>
-        <section>
-            <h3>Centres d'intérêt</h3>
-            <hr>
-            <ul style="list-style-type: square;">
-                <li>Jeu vidéo</li>
-                <li>Technologie</li>
-                <li>Cinéma</li>
-            </ul>
+        <section class="section-G">
+            <section>
+                <h3>Compétences</h3>
+                <hr>
+                <p class="p-G">
+                    HTML <span class="blue">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</span>
+                </p>
+                <p class="p-G">
+                    CSS <span class="blue">&#x2605;&#x2605;&#x2605;&#x2605;&#x2606;</span>
+                </p>
+                <p class="p-G">
+                    Javascript <span class="blue">&#x2606;&#x2606;&#x2606;&#x2606;&#x2606;</span>
+                </p>
+                <p class="p-G">
+                    PHP <span class="blue">&#x2606;&#x2606;&#x2606;&#x2606;&#x2606;</span>
+                </p>
+            </section>
+            <section>
+                <h3>Langues</h3>
+                <hr>
+                <p class="p-G">
+                    Français <span class="normal">Langue maternelle</span>
+                </p>
+                <p class="p-G">
+                    Anglais <span class="normal">Moyen</span>
+                </p>
+            </section>
+            <section>
+                <h3>Qualités</h3>
+                <hr>
+                <ul>
+                    <li>Oragnisé</li>
+                    <li>Autonome</li>
+                    <li>Esprit d'équipe</li>
+                    <li>Sens de l'apprentissage</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Centres d'intérêt</h3>
+                <hr>
+                <ul>
+                    <li>Jeu vidéo</li>
+                    <li>Technologie</li>
+                    <li>Cinéma</li>
+                </ul>
+            </section>
         </section>
     </main>
     <footer>
-        <a href="https://www.linkedin.com/in/mathieu-billoux-64972a314/" target="_blank"><img src="./assets/img/linkedin.png" alt="Logo Linkedin"></a>
-        <a href="https://github.com/Luxibol" target="_blank"><img src="./assets/img/github.png" alt="Logo GitHub"></a>
-        <p>Mis à jour le : <time datetime="2024-09-30">30/09/2024</time></p>
+        <a href="https://www.linkedin.com/in/mathieu-billoux-64972a314/" target="_blank"><img src="./assets/img/linkedin.png" alt="Logo Linkedin" class="img-f-1"></a>
+        <a href="https://github.com/Luxibol" target="_blank"><img src="./assets/img/github.png" alt="Logo GitHub" class="img-f-2"></a>
+        <p class="p-f">Mis à jour le : <time datetime="2024-09-30">30/09/2024</time></p>
     </footer>
 </body>
 </html>
